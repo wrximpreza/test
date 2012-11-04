@@ -1,0 +1,12 @@
+* +html .navigation li,
+* +html #wrapper{zoom:expression(runtimeStyle.zoom = 1, insertAdjacentHTML('beforeEnd', '<span class="after"></span>'));}
+.select-options{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#444444',GradientType=0 );}
+.select-options .item-selected a,
+.select-options a:hover{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8d610', endColorstr='#00ffffff',GradientType=1 );}
+#sidebar .ad{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e6363', endColorstr='#ffffff',GradientType=1 );}
+.navigation:before,
+.navigation li .after,
+.navigation li:after{
+	background:#fff;
+	width:2px;
+}
